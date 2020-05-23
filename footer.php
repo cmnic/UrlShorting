@@ -18,10 +18,9 @@
     <center>
         <div class="mdui-divider"></div>
         <p id="hitokoto">:D 获取中...</p>
-        <div class="footer-copyright">Copyright © 2019-
-            <?php echo date( 'Y') ?> <a class="mdui-text-color-grey-800" href="http://xsot.cn">XCSOFT</a> All rights reserved.
+        <div class="footer-copyright">Powered by <a class="mdui-text-color-grey-800" href="http://xsot.cn">XCSOFT</a>.
             <br>
-            Edited By CMNIC | <a class="mdui-text-color-grey-800" href="https://github.com/cmnic/UrlShorting">Github</a>
+            Fork me on <a class="mdui-text-color-grey-800" href="https://github.com/cmnic/UrlShorting">Github</a>
         </div>
     </center>
 </footer>
