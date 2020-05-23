@@ -1,6 +1,7 @@
 <!--
 版权归属:XCSOFT
-修改时间:2019/02/23
+修改：CMNIC
+修改时间:2020/05/23
 v1.7.0
 邮箱:contact#xcsoft.top(用@替换#)
 如有任何问题欢迎联系!
@@ -116,8 +117,8 @@ if (empty($id)) {
     <?php echo($title);?>
   </title>
   <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico" media="screen" />
-  <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
-<script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/zdhxiong/mdui@0.4.3/dist/css/mdui.min.css">
+<script src="https://cdn.jsdelivr.net/gh/zdhxiong/mdui@0.4.3/dist/js/mdui.min.js"></script>
   <script src="//instant.page/1.2.2" type="module" integrity="sha384-2xV8M5griQmzyiY3CDqh1dn4z3llDVqZDqzjzcY+jCBCk/a5fXJmuZ/40JJAPeoU"></script>
   </head>
   <header class="mdui-appbar mdui-appbar-fixed">
@@ -129,44 +130,43 @@ if (empty($id)) {
       text-decoration:none
     }
   </style>
-  <body background="/assets/img/background.png" class="mdui-drawer-body-left mdui-appbar-with-toolbar">
-    <div class="mdui-toolbar mdui-color-theme">
+  <body class="mdui-drawer-body-left mdui-appbar-with-toolbar mdui-color-grey-100">
+    <div class="mdui-toolbar mdui-color-theme mdui-color-indigo">
       <span class="mdui-btn mdui-btn-icon mdui-ripple" mdui-drawer="{target: '#main-drawer'}">
-        <i class="mdui-icon material-icons">menu</i>
+        <i class="mdui-icon material-icons">&#xe5d2;</i>
       </span>
-      <a href="" class="mdui-typo-title">Urlshorting</a>
+      <a href="/" class="mdui-typo-title">悄悄话</a>
+      <div class="mdui-toolbar-spacer"></div>
+      <a href="./help.php" class="mdui-btn mdui-btn-icon">
+          <i class="mdui-icon material-icons">&#xe8fd;</i>
+        </a>
     </header>
-    <div class="mdui-drawer" id="main-drawer">
+    <div class="mdui-progress" id="progressbar" style="display:none;">
+		<div class="mdui-progress-indeterminate"></div>
+	</div>
+    <div class="mdui-drawer mdui-color-grey-50" id="main-drawer">
       <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 68px;">
         <div class="mdui-list">
           <a href="/" class="mdui-list-item">
-            <i class="mdui-list-item-icon mdui-icon material-icons">filter_none</i>
+            <i class="mdui-icon material-icons">&#xe3e0;</i>
             &emsp;主页
-          </a>
-          <a href="./help.php" class="mdui-list-item">
-          <i class="mdui-list-item-icon mdui-icon material-icons">help_outline</i>
-          &emsp;帮助
-        </a>
-          <a href="./admin" class="mdui-list-item">
-            <i class="mdui-list-item-icon mdui-icon material-icons">person_outline</i>
-            &emsp;后台
           </a>
         </div>
         <a href="./about.php" class="mdui-list-item">
-          <i class="mdui-list-item-icon mdui-icon material-icons">info_outline</i>
+          <i class="mdui-icon material-icons">&#xe88f;</i>
           &emsp;关于
         </a>
         <div class="mdui-collapse-item ">
           <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
             <i class="mdui-list-item-icon mdui-icon material-icons">&#xe80d;</i>
             &emsp;友链
-            <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+            <i class="mdui-icon material-icons">&#xe313;</i>
           </div>
           <div class="mdui-collapse-item-body mdui-list">
-            <a href="//blog.xsot.cn" class="mdui-list-item mdui-ripple ">星辰日记</a>
+            <a href="//www.v-gov.net" class="mdui-list-item mdui-ripple ">信息中心</a>
           </div>
           <div class="mdui-collapse-item-body mdui-list">
-            <a href="//love.xsot.cn" class="mdui-list-item mdui-ripple ">星辰表白墙</a>
+            <a href="//icp.cmnic.org" class="mdui-list-item mdui-ripple ">备案中心</a>
           </div>
         </div>
       </div>
