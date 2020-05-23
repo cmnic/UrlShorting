@@ -11,11 +11,13 @@ $shorturl = $_SESSION['shorturl'];
 ?>
 <div class="mdui-container doc-container">
     <div class="mdui-typo">
-        <h2>缩短成功!</h2>
+        <h2>创建成功!</h2>
         <center>
           <br />
           <?php qrcode($shorturl,"show"); ?>
-          <h3>短链接:<?php echo $shorturl ?></h3>
+          <h3>下方复制链接</h3>
+          <br>
+          <pre style="user-select:all;"><?php echo $shorturl ?></pre>
         </center>
     </div>
 </div>
