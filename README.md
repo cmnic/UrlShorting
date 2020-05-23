@@ -23,5 +23,7 @@ RewriteRule ^(.*)$ /index.php?id=$1 [L]
 ```
 
 ## 版权
-原程序基于Apache License
-修改程序基于GPLv3开源
+星辰短域：基于Apache License开源<br/>
+[XCSOFT](https://xsot.cn/) 版权所有。<br/>
+本项目：基于GPLv3开源<br/>
+[CMNIC](https://github.com/cmnic) 版权所有。
