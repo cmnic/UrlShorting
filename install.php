@@ -176,7 +176,6 @@
       //写注册锁
       echo "<br/><center><h1>安装成功!4s后将为您自动跳转到首页!</h1></center>";
       echo "<br/><center><h2>非宝塔一键部署用户请注意,你还需要自己手动配置网站伪静态.网站伪静态配置信息请参考根目录下`README.md`中所写内容.</h2></center>";
-      file_get_contents("https://xsot.cn/api/detection/?type=shorturl&&domain=" . $_SERVER['HTTP_HOST']);
       header("Refresh:4;url=\"./index.php\"");
     }
     ?>
