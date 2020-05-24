@@ -28,8 +28,10 @@ RewriteRule ^(.*)$ /index.php?id=$1 [L]
 
 ## 版权
 
-基于GPLv3开源<br/>
-[CMNIC](https://github.com/cmnic) 版权所有。<br/>
-基于 [星辰短域](https://github.com/soxft/UrlShorting)<br />
+GPLv3<br/>
+[CMNIC](https://github.com/cmnic) 版权所有。
+
+## 原项目版权
+[星辰短域](https://github.com/soxft/UrlShorting)<br />
 [XCSOFT](https://xsot.cn/) 版权所有。
 
