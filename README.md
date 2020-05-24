@@ -1,8 +1,10 @@
 # 悄悄话
 ## 简介
 ![image.png](https://i.loli.net/2020/05/24/msMT7ztKZOdJn85.png)
-演示站： [url.v-gov.net](https://url.v-gov.net)
-[星辰短域](https://github.com/soxft/UrlShorting) 美化版本 by CMNIC
+
+演示站： [悄悄话](https://url.v-gov.net)
+
+原项目： [星辰短域](https://github.com/soxft/UrlShorting)
 ## 安装方法
 1.下载源码.<br/>
 2.上传至你的网站根目录.<br/>
@@ -25,7 +27,9 @@ RewriteRule ^(.*)$ /index.php?id=$1 [L]
 ```
 
 ## 版权
-星辰短域：基于Apache License开源<br/>
-[XCSOFT](https://xsot.cn/) 版权所有。<br/>
-本项目：基于GPLv3开源<br/>
-[CMNIC](https://github.com/cmnic) 版权所有。
+
+基于GPLv3开源<br/>
+[CMNIC](https://github.com/cmnic) 版权所有。<br/>
+基于 [星辰短域](https://github.com/soxft/UrlShorting)<br />
+[XCSOFT](https://xsot.cn/) 版权所有。
+
